@@ -33,9 +33,30 @@ void draw() {
 
 //// SCENE:  sky, sun, tree, house, etc.
 void scene() {  
-  /* INSERT YOUR CODE HERE! */    background( 200,255,255 );
+background( 0,78,242 );                // sky
+  fill( 247,124,0 );
+  ellipse( width*3/4, height/10, 100,100 );    // sun
+  // Grass
+  fill( 100,200,100 );
+  rect( 0,horizon, width,height*3/4 );      // grass.
+  
+  // HOUSE
+  fill(255,0,47);
+  rect(150, 65, 55, 55);
+  fill(0,255,236);
+  triangle(150, 65, 178, 10, 206, 65);
   fill(0);
-  /* REPLACE THIS STUB! */  text( "scene", 100, 100 );
+  rect(187, 90, 15, 30);
+  
+  
+   
+  fill( 103,44,9 );
+  rect(38, 60, 25, 60);              // tree fixed
+  fill( 100,200,100 );
+  triangle(30, 75, 58, 20, 86, 75);
+  triangle(20, 65, 48, 10, 76, 65); 
+  triangle(40, 85, 68, 30, 96, 85);
+  triangle(5, 85, 38, 30, 66, 85);
 }
 
 void messages() {
