@@ -81,6 +81,9 @@ void dog() {
   rect(dogX,dogY, 60,30 );
   /* INSERT YOUR CODE HERE! */
   /* REPLACE THIS STUB! */  text( "woof, woof!d!!", 150, 150 );
+  
+
+  line( dogX, dogY+30, dogX+20, dogY+30+20);
 }
 
 
