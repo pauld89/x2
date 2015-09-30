@@ -103,7 +103,7 @@ void keyPressed() {
   if (key == 'q') {
     exit();                           // press 'q' key to QUIT.
   }
-  /* INSERT YOUR CODE HERE! */
+  /* INSERT YOUR CODE HERE! *///
 }
    
    
